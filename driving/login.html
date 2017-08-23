@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+   
+
+    <title>Aceh Driving School</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- pakai css untuk atur ukuran form login -->
+    <link href="signin.css" rel="stylesheet">
+
+    <script src="js/ie-emulation-modes-warning.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    
+  </head>
+
+  <body background="img/page-background.png">
+
+    <div class="container">
+
+      <form class="form-signin" action="proseslogin.php" method="post">
+        <center><h2 class="form-signin-heading"><span class="glyphicon glyphicon-th-large"></span> Login Admin </h2></center>
+        <div class="input-group">
+         <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+         <input type="text" id="username" name="username" class="form-control" placeholder="Username" autocomplete="off" autofocus="on" required>
+         </div>
+        <div class="input-group" style="margin-top: 5px;">
+         <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+         <input type="password" id="password" name="password" class="form-control" placeholder="Password" autocomplete="off" required>
+         </div>
+        <br/>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+      </form>
+
+    </div> <!-- /container -->
+    
+    <center><h5 class="form-signin">Copyright &copy; <a href="#" data-toggle="modal" data-target="#contact">Aceh Driving School</a></h5></center> 
+    
+     <!-- Modal Dialog Contact -->
+<div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Contact Us</h4>
+      </div>
+      <div class="modal-body">
+    Aceh Driving School adalah aplikasi penyedia informasi pengajar  bebasis website yang diciptakan untuk memudahakan orang dalam
+     mencari informasi tersebut.
+      <table>
+      <tr>
+      <td>No Telepon</td> <td>:</td> <td>085276901919</td>
+      </tr>
+      <br />
+      <tr>
+      <td>E-mail</td><td>:</td> <td><a >acehdriving@gmail.com</a> </td>
+      </tr> 
+      <br />
+       </table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end dialog modal -->
+
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
